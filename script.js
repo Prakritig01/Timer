@@ -8,7 +8,7 @@ let updateTimeInterval;
 
 btn.addEventListener("click", () => {
   if (!minutes.value ) {
-    console.log("Please enter a valid time.");
+    alert("Please enter a valid time.");
   } else {
     btn.disabled = true;
     handleClick();
